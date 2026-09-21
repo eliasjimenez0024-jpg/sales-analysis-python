@@ -51,6 +51,6 @@ sales-analysis-python/
 │   └── analysis.py
 │
 └── README.md
-
+```
 
 ![Monthly Sales](outputs/monthly_sales.png)
