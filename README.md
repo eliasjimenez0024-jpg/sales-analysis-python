@@ -54,3 +54,10 @@ sales-analysis-python/
 ```
 
 ![Monthly Sales](outputs/monthly_sales.png)
+
+## Recommendations
+
+- Investigate the March sales decline to identify the main drivers behind the 27.1% decrease.
+- Reduce revenue concentration by promoting lower-performing products alongside Laptop.
+- Review the sales practices of the top-performing salesperson and identify approaches that could be replicated across the team.
+- Analyze regional performance in greater detail to understand why North is outperforming the other regions.
