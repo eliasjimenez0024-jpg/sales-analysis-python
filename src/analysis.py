@@ -25,6 +25,7 @@ sales_by_product_pct = (sales_by_product / total_sales) * 100
 sales_by_region_pct = (sales_by_region / total_sales) * 100
 sales_by_salesperson_pct = (sales_by_salesperson / total_sales) * 100
 
+
 df["date"] = pd.to_datetime(df["date"])
 
 df["month"] = df["date"].dt.to_period("M")
@@ -32,6 +33,12 @@ df["month"] = df["date"].dt.to_period("M")
 monthly_sales = (
     df.groupby("month")["sales"].sum()
 )
+
+sales_by_category = (
+    df.groupby("category")["sales"].sum().sort_values(ascending=False)
+)
+
+sales_by_category_pct = (sales_by_category / total_sales) * 100
 
 print(df.head())
 
@@ -59,6 +66,12 @@ print(sales_by_salesperson_pct.round(2))
 
 print("\nSales by Month")
 print(monthly_sales)
+
+print("\nSales by Category")
+print(sales_by_category)
+
+print("\nSales by Category %:")
+print(sales_by_category_pct.round(2))
 
 monthly_sales.plot(kind="bar")
 
