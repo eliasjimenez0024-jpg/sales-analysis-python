@@ -1,4 +1,4 @@
-# Sales Analysis with Python
+# Sales Performance Analysis with Python
 
 ## Project Overview
 
