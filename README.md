@@ -61,3 +61,9 @@ sales-analysis-python/
 - Reduce revenue concentration by promoting lower-performing products alongside Laptop.
 - Review the sales practices of the top-performing salesperson and identify approaches that could be replicated across the team.
 - Analyze regional performance in greater detail to understand why North is outperforming the other regions.
+
+## Future Improvements
+
+- Expand the dataset with additional months of sales data.
+- Add customer-level analysis.
+- Include profitability and margin metrics.
