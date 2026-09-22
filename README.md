@@ -67,3 +67,6 @@ sales-analysis-python/
 - Expand the dataset with additional months of sales data.
 - Add customer-level analysis.
 - Include profitability and margin metrics.
+
+
+- Electronics is the leading category by revenue, outperforming Accessories.
